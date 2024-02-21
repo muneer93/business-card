@@ -1,0 +1,37 @@
+body {
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(232, 235, 238, 0.3);
+    transition: box-shadow 1s ease; /* Smooth transition for the shadow effect */
+}
+
+.avatar:hover {
+    box-shadow: none; /* Removing the shadow effect on hover */
+    transform: scale(1.1); /* Scaling up the avatar on hover */
+    box-shadow: 5px 5px 5px 5px rgba(232, 235, 238, 0.3);
+}
+
+
+.card {
+    background-color: #415A77;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    width: 600px;
+    margin: 0 auto;
+    border-bottom: 15px solid #73d2de;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(48, 49, 50, 0.2);
+}
+
+
+.border-blue {
+    color: #E0E1DD;
+    justify-content: right;
+    text-align: center;   
+}
